@@ -29,13 +29,13 @@ h1, h2, h3, h4, h5, h6 {
 # Sections
 --------------------------------------------------------------*/
 section {
-  padding: 60px 0;
+  padding: 15px 0;
   overflow: hidden;
 }
 
 .section-header {
   text-align: center;
-  padding-bottom: 40px;
+  padding-bottom: 20px;
 }
 
 .section-header h2 {
@@ -124,7 +124,7 @@ section {
   right: 15px;
   bottom: 15px;
   z-index: 99999;
-  background: #4154f1;
+  background: #29a1b9;
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -163,12 +163,12 @@ section {
   transition: all 0.5s;
   z-index: 997;
   padding: 20px 0;
-  background: white;
-  box-shadow: 0 2px 2px -2px gray;
+  background: #1696af;
+  box-shadow: 0 2px 2px -2px #03697e;
 }
 
 .header.header-scrolled {
-  background: #fff;
+  background: #1fa5c0;
   padding: 15px 0;
   box-shadow: 0px 2px 20px rgba(1, 41, 112, 0.1);
 }
@@ -201,6 +201,12 @@ section {
   display: none;
 }
 
+.wa-icon {
+  font-size: 30px;
+  color: #a5edfd;
+  font-weight: bolder;
+}
+
 .navbar {
   padding: 0;
 }
@@ -225,7 +231,7 @@ section {
   font-family: "Nunito", sans-serif;
   font-size: 16px;
   font-weight: 700;
-  color: #013289;
+  color: #daf7fd;
   white-space: nowrap;
   transition: 0.3s;
 }
@@ -237,11 +243,11 @@ section {
 }
 
 .navbar a:hover, .navbar .active, .navbar li:hover > a {
-  color: #4154f1;
+  color: #ffffff;
 }
 
 .navbar .getstarted {
-  background: #15be56;
+  background: #6ec2a3;
   padding: 8px 20px;
   margin-left: 30px;
   border-radius: 4px;
@@ -250,7 +256,7 @@ section {
 
 .navbar .getstarted:hover {
   color: #fff;
-  background: #08963f;
+  background: #039e3f;
 }
 
 .navbar .dropdown ul {
@@ -320,7 +326,7 @@ section {
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
-  color: #012970;
+  color: #a5edfd;
   font-size: 28px;
   cursor: pointer;
   display: none;
@@ -340,8 +346,14 @@ section {
   .mobile-nav-toggle {
     display: block;
   }
+  .fa-whatsapp{
+    display: block !important;
+    font-size: 30px !important;
+  }
+
   .fa-bars {
     display: block !important;
+    font-size: 30px !important;
   }
   .navbar ul {
     display: none;
@@ -380,7 +392,7 @@ section {
   left: 15px;
   padding: 10px 0;
   border-radius: 10px;
-  background-color: #fff;
+  background-color: #29a1b9;
   overflow-y: auto;
   transition: 0.3s;
 }
@@ -392,7 +404,7 @@ section {
 }
 
 .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
-  color: #4154f1;
+  color: #f2fffb;
 }
 
 .navbar-mobile .getstarted {
@@ -438,7 +450,7 @@ section {
   width: 100%;
   height: 100vh;
   /* background: url(../img/hero-bg.png) top center no-repeat; */
-  background: #3d80f3;
+  background: #29a1b9;
   background-size: cover;
 }
 
@@ -461,9 +473,9 @@ section {
   padding: 22px 40px;
   border-radius: 6px;
   transition: 0.5s;
-  color: #474c57;
+  color: #fff;
   font-weight: bolder;
-  background: #ffb347;
+  background: #eba606;
 }
 
 .hero .btn-get-started span {
@@ -528,8 +540,12 @@ section {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
+.about {
+  background-color: #ffd3b6;
+}
+
 .about .content {
-  background-color: #f6f9ff;
+  background-color: #dcedc1;
   padding: 40px;
 }
 
@@ -675,7 +691,7 @@ section {
 }
 
 .features .feature-box:hover i {
-  background: #4154f1;
+  background: #262b58;
   color: #fff;
 }
 
@@ -775,6 +791,7 @@ section {
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
+
 .services .service-box {
   box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
   height: 100%;
@@ -815,11 +832,44 @@ section {
   font-size: 18px;
 }
 
-.services .service-box.blue {
-  border-bottom: 3px solid #2db6fa;
+.services .service-box1 {
+  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+  height: 100%;
+  padding: 60px 30px;
+  text-align: center;
+  transition: 0.3s;
+  border-radius: 5px;
+  border-bottom: 3px solid #3d91a3;
+  background: #50b4cb;
 }
 
-.services .service-box.blue .icon {
+.services .service-box1 .icon {
+  font-size: 36px;
+  padding: 40px 20px;
+  border-radius: 4px;
+  position: relative;
+  margin-bottom: 25px;
+  display: inline-block;
+  line-height: 0;
+  transition: 0.3s;
+  color: #2db6fa;
+  background: #dbf3fe;
+}
+
+.services .service-box1 h3 {
+  color: #fffbfb;
+  font-weight: 700;
+}
+
+.services p {
+  color: #fffbfb;
+}
+
+.services .service-box.blue {
+  border-bottom: 3px solid #3d91a3;
+}
+
+.services .service-box1.blue .icon {
   color: #2db6fa;
   background: #dbf3fe;
 }
@@ -829,16 +879,45 @@ section {
 }
 
 .services .service-box.blue:hover {
-  background: #2db6fa;
+  background: #50b4cb;
+}
+
+.services .service-box2 {
+  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+  height: 100%;
+  padding: 60px 30px;
+  text-align: center;
+  transition: 0.3s;
+  border-radius: 5px;
+  border-bottom: 3px solid #c4154a;
+  background: #e44776;
+}
+
+.services .service-box2 .icon {
+  font-size: 36px;
+  padding: 40px 20px;
+  border-radius: 4px;
+  position: relative;
+  margin-bottom: 25px;
+  display: inline-block;
+  line-height: 0;
+  transition: 0.3s;
+  color: #fa6d97;
+  background: #f8bacd;
+}
+
+.services .service-box2 h3 {
+  color: #fffbfb;
+  font-weight: 700;
 }
 
 .services .service-box.orange {
   border-bottom: 3px solid #f68c09;
 }
 
-.services .service-box.orange .icon {
-  color: #f68c09;
-  background: #fde3c4;
+.services .service-box2.orange .icon {
+  color: #fa6d97;
+  background: #f8bacd;
 }
 
 .services .service-box.orange .read-more {
@@ -849,13 +928,42 @@ section {
   background: #f68c09;
 }
 
+.services .service-box3 {
+  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+  height: 100%;
+  padding: 60px 30px;
+  text-align: center;
+  transition: 0.3s;
+  border-radius: 5px;
+  border-bottom: 3px solid #bd8502;
+  background: #feb302;
+}
+
+.services .service-box3 .icon {
+  font-size: 36px;
+  padding: 40px 20px;
+  border-radius: 4px;
+  position: relative;
+  margin-bottom: 25px;
+  display: inline-block;
+  line-height: 0;
+  transition: 0.3s;
+  color: #ebca0f;
+  background: #fcf4c9;
+}
+
+.services .service-box3 h3 {
+  color: #fffbfb;
+  font-weight: 700;
+}
+
 .services .service-box.green {
   border-bottom: 3px solid #08da4e;
 }
 
-.services .service-box.green .icon {
-  color: #08da4e;
-  background: #cffddf;
+.services .service-box3.green .icon {
+  color: #ebca0f;
+  background: #fcf4c9;
 }
 
 .services .service-box.green .read-more {
@@ -933,7 +1041,7 @@ section {
   background: #fff;
   text-align: center;
   box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
-  border-radius: 4px;
+  border-radius: 6px;
   position: relative;
   overflow: hidden;
   transition: 0.3s;
@@ -964,7 +1072,7 @@ section {
 }
 
 .pricing .price span {
-  color: #bababa;
+  color: #4b3b3b;
   font-size: 16px;
   font-weight: 300;
 }
@@ -976,7 +1084,7 @@ section {
 .pricing ul {
   padding: 0;
   list-style: none;
-  color: #444444;
+  color: #fcf7f7;
   text-align: center;
   line-height: 26px;
   font-size: 16px;
@@ -996,19 +1104,20 @@ section {
   display: inline-block;
   padding: 8px 40px 10px 40px;
   border-radius: 50px;
-  color: #4154f1;
+  color: #d7f4fa;
   transition: none;
   font-size: 16px;
   font-weight: 400;
   font-family: "Nunito", sans-serif;
   font-weight: 600;
   transition: 0.3s;
-  border: 1px solid #4154f1;
+  border: 1px solid #339cb1;
+  background: #29a1b9;
 }
 
 .pricing .btn-buy:hover {
-  background: #4154f1;
-  color: #fff;
+  background: #097286;
+  color: #f2fbfd;
 }
 
 .pricing .featured {
@@ -2386,5 +2495,5 @@ section {
 .discount {
   text-decoration: line-through;
   font-size:18px;
-  color:darkgrey;
+  color:rgb(73, 54, 54);
 }
