@@ -29,7 +29,7 @@ h1, h2, h3, h4, h5, h6 {
 # Sections
 --------------------------------------------------------------*/
 section {
-  padding: 15px 0;
+  padding: 1px 0;
   overflow: hidden;
 }
 
@@ -541,25 +541,25 @@ section {
 # About
 --------------------------------------------------------------*/
 .about {
-  background-color: #ffd3b6;
+  background-color: #0046D4;
 }
 
 .about .content {
-  background-color: #dcedc1;
+  background-color: #0046D4;
   padding: 40px;
 }
 
 .about h3 {
   font-size: 14px;
   font-weight: 700;
-  color: #4154f1;
+  color: #ffffff;
   text-transform: uppercase;
 }
 
 .about h2 {
   font-size: 24px;
   font-weight: 700;
-  color: #012970;
+  color: #ffffff;
 }
 
 .about p {
