@@ -1104,15 +1104,15 @@ section {
   display: inline-block;
   padding: 8px 40px 10px 40px;
   border-radius: 50px;
-  color: #d7f4fa;
+  color: #21454d;
   transition: none;
   font-size: 16px;
   font-weight: 400;
   font-family: "Nunito", sans-serif;
   font-weight: 600;
   transition: 0.3s;
-  border: 1px solid #339cb1;
-  background: #29a1b9;
+  border-bottom: 3px solid #b6d0d4;
+  background: #e7f7fa;
 }
 
 .pricing .btn-buy:hover {
